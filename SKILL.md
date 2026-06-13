@@ -1,6 +1,29 @@
 ---
 name: factor-evaluate
-description: 评价单个因子或信号 —— 双 IC（rank + Pearson）+ Sharpe + MDD + 单调性 + 换手 → 归一加权主分。给一个综合分判断"好不好、要不要保留"。触发词：评价因子、给因子打分、factor score、evaluate factor、rank IC、IC_IR、信号好不好。
+description: Use when an agent needs to evaluate a single quantitative factor or signal
+  with rank IC, Pearson IC, Sharpe, maximum drawdown, monotonicity, turnover, and
+  a normalized composite score report.
+quantSkills:
+  project_type: skill
+  category: tooling
+  tags:
+  - factor-evaluation
+  - ic
+  - sharpe
+  - monotonicity
+  - turnover
+  platforms:
+  - claude-code
+  - codex
+  - openclaw
+  - cursor
+  status: stable
+  validation_level: listed
+  maintainer_type: community
+  summary_zh: 不是回测引擎，而是给单个因子打综合分的评价 Skill：双 IC + Sharpe + MDD + 单调性 + 换手 → 归一加权主分。
+  summary_en: Single-factor evaluation skill covering rank IC, Pearson IC, Sharpe,
+    drawdown, monotonicity, turnover, and composite scoring.
+  license: GPL-3.0
 ---
 
 # Factor Evaluate
