@@ -6,6 +6,7 @@
 
 `role: skill` `output: ScoreReport` `paradigm: pooled cross-section`
 
+
 ---
 
 `skill-factor-evaluate` 是 PandaAI Quant Skills 提供的**因子评价 Skill**。给定一个截面信号 `[date × symbol]`，它输出一份完整体检报告：截面有效性 / 风险调整收益 / 稳健性 / 换手成本，并按归一加权公式给出一个可比的主分。
@@ -130,3 +131,11 @@ Period    : 2021-12-04 → 2024-12-03 (val, 3.0y)
 This repository is licensed under the GNU General Public License v3.0. See LICENSE.
 
 Copyright (C) 2026 QuantSkills.
+
+## 🐼 PandaAI / QUANTSKILLS 社群
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/quantskills/.github/main/profile/assets/pandaai-community-qr.jpg" alt="PandaAI 社群二维码" width="220">
+  <br>
+  <sub>扫码加入 PandaAI 社群，交流 QUANTSKILLS 技能、Agent 工作流与量化研究实践。</sub>
+</div>
